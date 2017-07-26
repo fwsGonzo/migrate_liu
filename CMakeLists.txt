@@ -23,5 +23,7 @@ set(DRIVERS
 # include service build script
 include($ENV{INCLUDEOS_PREFIX}/includeos/post.service.cmake)
 
+diskbuilder(disk)
+
 # Uncomment this to build vanilla:
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -msse4.2")
